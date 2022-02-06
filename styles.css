@@ -15,7 +15,7 @@ canvas {
   z-index: -1;
 }
 .text-box {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 7px;
   word-spacing: 12px;
@@ -29,9 +29,9 @@ a {
 }
 
 .heading {
-  transition: transform 1s; /* Animation */
+  transition: transform 2s; /* Animation */
 }
 
 .heading:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
