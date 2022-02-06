@@ -22,28 +22,16 @@ canvas {
   text-transform: uppercase;
   color:rgb(238, 238, 238);
 }
-.button-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  flex-direction: row;
-}
-.button {
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 15px;
-  margin-left:20px;
-  margin-right:20px;
-  word-spacing: normal;
-  letter-spacing: 5px;
-  border: 1px solid white;
-  background: black;
-  cursor: pointer;
-}
 
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.heading {
+  transition: transform 1s; /* Animation */
+}
+
+.heading:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
